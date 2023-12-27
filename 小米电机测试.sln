@@ -3,18 +3,50 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "小米电机测试", "小米电机测试\小米电机测试.csproj", "{F994B58F-A01A-491C-99FC-F42FE4358BF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "小米电机测试", "小米电机测试\小米电机测试.csproj", "{F994B58F-A01A-491C-99FC-F42FE4358BF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "c:\Users\iiotstech-yyy\OneDrive - 淬剑阁\文档\Arduino\test\test\test.vcxproj", "{2584F371-487E-447F-B02F-95EAA87D6BA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
 		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Debug|ARM.Build.0 = Debug|Any CPU
+		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Debug|ARM64.Build.0 = Debug|Any CPU
 		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Release|ARM.Build.0 = Release|Any CPU
+		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{F994B58F-A01A-491C-99FC-F42FE4358BF9}.Release|ARM64.Build.0 = Release|Any CPU
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Debug|Any CPU.ActiveCfg = Debug|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Debug|Any CPU.Build.0 = Debug|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Debug|Any CPU.Deploy.0 = Debug|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Debug|ARM.Build.0 = Debug|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Debug|ARM.Deploy.0 = Debug|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Debug|ARM64.Build.0 = Debug|ARM64
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Release|Any CPU.ActiveCfg = Release|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Release|Any CPU.Build.0 = Release|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Release|Any CPU.Deploy.0 = Release|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Release|ARM.ActiveCfg = Release|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Release|ARM.Build.0 = Release|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Release|ARM.Deploy.0 = Release|ARM
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Release|ARM64.ActiveCfg = Release|ARM64
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Release|ARM64.Build.0 = Release|ARM64
+		{2584F371-487E-447F-B02F-95EAA87D6BA2}.Release|ARM64.Deploy.0 = Release|ARM64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
